@@ -1,0 +1,9 @@
+# Local simulate target. Do not cre workflow deploy this until Chainlink
+# grants confidential-workflow mainnet access.
+staging-settings:
+  user-workflow:
+    workflow-name: "bounty-cre"
+  workflow-artifacts:
+    workflow-path: "./main.ts"
+    config-path: "./config.staging.json"
+    secrets-path: "../secrets.yaml"
