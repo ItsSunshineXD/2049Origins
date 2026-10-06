@@ -1,8 +1,7 @@
-cache/
-out/
-broadcast/
-lib/
 proofs/
+keys/
+programs/*/target/
+programs/*/src/id.rs
 **/node_modules/
 **/dist/
 **/.env

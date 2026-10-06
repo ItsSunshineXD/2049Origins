@@ -1,6 +1,6 @@
-# Local simulate only. The handler calls anvil over HTTP itself.
+# Local simulate only. The handler calls the Solana validator over HTTP.
 # This RPC entry lets the CLI load a target. It is not a production DON.
 staging-settings:
   rpcs:
-    - chain-name: ethereum-testnet-sepolia
-      url: http://127.0.0.1:18545
+    - chain-name: solana-mainnet
+      url: http://127.0.0.1:8899
